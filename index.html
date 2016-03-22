@@ -23,7 +23,7 @@
 <script>
 L.mapbox.accessToken = 'pk.eyJ1IjoiZmNjIiwiYSI6InBiaGMyLU0ifQ.LOmVYpUCFv2yWpbvxDdQNg';
 var map = L.mapbox.map('map', 'fcc.al3w5t25', {
-	maxZoom: 12,
+	maxZoom: 10,
 	minZoom: 4,
     legendControl: {
         position: 'bottomleft'
@@ -32,7 +32,7 @@ var map = L.mapbox.map('map', 'fcc.al3w5t25', {
 
 // top layer (always on)
 L.mapbox.tileLayer('fcc.al3w5t25', {
-	maxZoom: 12,
+	maxZoom: 10,
 	minZoom: 4
 }).setZIndex(1000).addTo(map);
 
